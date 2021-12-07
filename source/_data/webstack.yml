@@ -1,0 +1,208 @@
+favicon: /favicon.ico
+banner: /images/webstack_banner_cn.png
+
+logo:
+  expanded: /images/logo@2x.png
+  collapsed: /images/logo-collapsed@2x.png
+  dark: /images/logo_dark@2x.png
+
+flag:
+  icon: flag-cn
+  name: Chinese
+
+search: false
+
+githubCorner: ''
+
+menu:
+  - name: Chains
+    icon: far fa-star
+    config: chains
+  - name: Defi
+    icon: far fa-star
+    config: defi
+  - name: Dex
+    icon: fas fa-tools
+    config: dex
+  - name: Wallet
+    icon: far fa-star
+    config: wallet
+  - name: Bridge
+    icon: far fa-star
+    config: bridge
+  - name: Analyses
+    icon: far fa-star
+    config: analyses
+  - name: Airdrop
+    icon: far fa-star
+    config: airdrop
+  - name: Nft
+    icon: far fa-star
+    config: nft
+  - name: gamefi
+    icon: far fa-star
+    config: gamefi
+  - name: Funds
+    icon: far fa-star
+    config: funds
+  - name: Web3.0
+    icon: far fa-star
+    config: web3
+  - name: Other
+    icon: far fa-star
+    submenu:
+      - name: dev
+        icon: fas fa-tools
+        config: dev
+      - name: node
+        icon: fas fa-blog
+        config: node
+      - name: twitter_kol
+        icon: fas fa-blog
+        config: twitter
+
+chains:
+  - name: All Chains
+    url: /chains
+    img: /images/logos/myblog.png
+    description: All chains info
+  - name: chainlist
+    url: https:chainlist.org
+    img: /images/logos/myblog.png
+    description: A Chains info about EVM
+defi:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+dex:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+wallet:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+bridge:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+analyses:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+airdrop:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+nft:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+gamefi:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+funds:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+web3:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+dev:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+node:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+twitter:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+
+
+myBlog:
+  - name: A collection site
+    url: 
+    img: /images/logos/myBlog.png
+    description: a lazy guy
+
+about:
+  url: /about/
+  icon: far fa-heart
+  name: About
+
+aboutPage:
+  website:
+    head: about
+    html: ''
+  webmaster:
+    head: about me
+    name: Lious
+    url: 
+    img: 
+    description: lazy guy
+    html: ''
+
+since: 2021
+
+busuanzi:
+  enable: flase
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+
+js:
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+css:
+  hclonely: /css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css
