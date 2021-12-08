@@ -1,4 +1,22 @@
 # 环境搭建
+## nodejs
+
+## npm
+
+## 获取源码
+```
+git clone $http_url
+```
+
+## 安装依赖
+```
+npm install
+```
+
+## 安装主题
+```
+git clone https://github.com/HCLonely/hexo-theme-webstack themes/webstack
+```
 
 ## 本地预览
 ```
@@ -21,6 +39,18 @@ Edit `source/about/index.md` and add `type:'about'`
 
 ### 写文章请参考
 1. [](https://hexo.io/zh-cn/docs/writing)
+
+
+## 发布
+### 安装依赖
+```
+npm install hexo-deployer-git --save
+```
+
+```
+hexo g -d
+```
+
 
 # 参考文献
 1. [hexo史上最全搭建教程](https://blog.csdn.net/sinat_37781304/article/details/82729029/)
